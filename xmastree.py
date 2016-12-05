@@ -109,31 +109,32 @@ while True:
 	## EXAMPLE 2: Cycle through the colours in turn
 	all_leds_off()
 	for led in range(LED_COUNT):
+	    set_led_colour(led, "cyan")
+	    sleep(0.3)
+	for led in range(LED_COUNT):
 	    set_led_colour(led, "red")
 	    sleep(0.3)
 	for led in range(LED_COUNT):
 	    set_led_colour(led, "green")
 	    sleep(0.3)
 	for led in range(LED_COUNT):
+	    set_led_colour(led, "white")
+	    sleep(0.3)
+	for led in range(LED_COUNT):
 	    set_led_colour(led, "blue")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "magenta")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "cyan")
 	    sleep(0.3)
 	for led in range(LED_COUNT):
 	    set_led_colour(led, "yellow")
 	    sleep(0.3)
 	for led in range(LED_COUNT):
-	    set_led_colour(led, "white")
+	    set_led_colour(led, "magenta")
 	    sleep(0.3)
 	all_leds_off()
 
 	## EXAMPLE 3: Sweep green/red up from the bottom
 	all_leds_off()
 	set_all_colour("green")
+	sleep(0.4)
 	for i in range(3):
 	    # sweep-up in RED
 	    set_led_colour(0, "red")
