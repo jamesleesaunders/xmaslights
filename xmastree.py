@@ -29,6 +29,7 @@ LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
 LED_DMA        = 5       # DMA channel to use for generating signal (try 5)
 LED_INVERT     = False   # True to invert the signal
 LED_BRIGHTNESS = 50      # Set to 0 for darkest and 255 for brightest
+colours        = ['red', 'blue', 'magenta', 'cyan', 'yellow', 'green']
 tree = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
 tree.begin()
 
@@ -88,48 +89,24 @@ def set_all_colour(colour):
 ####################
 # Main
 ####################
-
 while True:
+
 	## EXAMPLE 1: Flash some colours (all LEDs the same colour)
-	all_leds_off() # start off with all the LEDs off
-	set_all_colour("red")
-	sleep(0.5)
-	set_all_colour("blue")
-	sleep(0.5)
-	set_all_colour("magenta")
-	sleep(0.5)
-	set_all_colour("cyan")
-	sleep(0.5)
-	set_all_colour("yellow")
-	sleep(0.5)
-	set_all_colour("green")
-	sleep(0.5)
-	all_leds_off() # end with all the LEDs off
+	all_leds_off()
+	for colour in colours:
+		set_all_colour(colour)
+		sleep(0.5)
+	all_leds_off()
+
 
 	## EXAMPLE 2: Cycle through the colours in turn
 	all_leds_off()
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "cyan")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "red")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "green")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "white")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "blue")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "yellow")
-	    sleep(0.3)
-	for led in range(LED_COUNT):
-	    set_led_colour(led, "magenta")
-	    sleep(0.3)
+	for colour in colours:
+		for led in range(LED_COUNT):
+		    set_led_colour(led, colour)
+		    sleep(0.3)
 	all_leds_off()
+
 
 	## EXAMPLE 3: Sweep green/red up from the bottom
 	all_leds_off()
@@ -158,18 +135,20 @@ while True:
 	    sleep(0.4)
 	all_leds_off()
 
+
 	## EXAMPLE 4: Some pulsing of the colour
 	all_leds_off()
 	for red in range(255):
-	    set_all_rgb(red, 0, 0)   # ramp-up the RED
+	    set_all_rgb(red, 0, 0)   # Ramp-up the RED
             sleep(0.005)
 	for green in range(255):
-	    set_all_rgb(0, green, 0) # ramp-up the GREEN
+	    set_all_rgb(0, green, 0) # Ramp-up the GREEN
             sleep(0.005)
 	for blue in range(255):
-	    set_all_rgb(0, 0, blue)  # ramp-up the BLUE
+	    set_all_rgb(0, 0, blue)  # Ramp-up the BLUE
             sleep(0.005)
 	all_leds_off()
+
 
 	## EXAMPLE 5: Some randomness
 	all_leds_off()

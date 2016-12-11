@@ -19,10 +19,10 @@ import random
 import time
 import RPi.GPIO as GPIO
 
-LEDs = [7, 8, 9, 22, 18, 17, 23, 24, 25]
+LEDs      = [7, 8, 9, 22, 18, 17, 23, 24, 25]
 EYE_LEFT  = 23
 EYE_RIGHT = 24
-NOSE = 25
+NOSE      = 25
 
 # Setup
 GPIO.setmode(GPIO.BCM)
