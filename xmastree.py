@@ -113,40 +113,40 @@ while True:
 	set_all_colour("green")
 	sleep(0.4)
 	for i in range(3):
-	    # sweep-up in RED
-	    set_led_colour(0, "red")
-	    set_led_colour(5, "red")
-	    set_led_colour(4, "red")
-	    sleep(0.4)
-	    set_led_colour(1, "red")
-	    set_led_colour(3, "red")
-	    sleep(0.4)
-	    set_led_colour(2, "red")
-	    sleep(0.4)
-	    # sweep-up in YELLOW
-	    set_led_colour(0, "green")
-	    set_led_colour(5, "green")
-	    set_led_colour(4, "green")
-	    sleep(0.4)
-	    set_led_colour(1, "green")
-	    set_led_colour(3, "green")
-	    sleep(0.4)
-	    set_led_colour(2, "green")
-	    sleep(0.4)
+		# sweep-up in RED
+		set_led_colour(0, "red")
+		set_led_colour(5, "red")
+		set_led_colour(4, "red")
+		sleep(0.4)
+		set_led_colour(1, "red")
+		set_led_colour(3, "red")
+		sleep(0.4)
+		set_led_colour(2, "red")
+		sleep(0.4)
+		# sweep-up in YELLOW
+		set_led_colour(0, "green")
+		set_led_colour(5, "green")
+		set_led_colour(4, "green")
+		sleep(0.4)
+		set_led_colour(1, "green")
+		set_led_colour(3, "green")
+		sleep(0.4)
+		set_led_colour(2, "green")
+		sleep(0.4)
 	all_leds_off()
 
 
 	## EXAMPLE 4: Some pulsing of the colour
 	all_leds_off()
 	for red in range(255):
-	    set_all_rgb(red, 0, 0)   # Ramp-up the RED
-            sleep(0.005)
+		set_all_rgb(red, 0, 0)   # Ramp-up the RED
+		sleep(0.005)
 	for green in range(255):
-	    set_all_rgb(0, green, 0) # Ramp-up the GREEN
-            sleep(0.005)
+		set_all_rgb(0, green, 0) # Ramp-up the GREEN
+		sleep(0.005)
 	for blue in range(255):
-	    set_all_rgb(0, 0, blue)  # Ramp-up the BLUE
-            sleep(0.005)
+		set_all_rgb(0, 0, blue)  # Ramp-up the BLUE
+		sleep(0.005)
 	all_leds_off()
 
 
@@ -154,16 +154,17 @@ while True:
 	all_leds_off()
 	# Start off in a random state
 	for led in range(LED_COUNT):
-	    red   = randint(0, 255)
-	    green = randint(0, 255)
-	    blue  = randint(0, 255)
-	    set_led_rgb(led, red, green, blue)
+		red   = randint(0, 255)
+		green = randint(0, 255)
+		blue  = randint(0, 255)
+		set_led_rgb(led, red, green, blue)
 	# Now randomly choose an LED and set it to a random colour
 	for i in range(50):
-	    led = randint(1, 6)
-	    red   = randint(0, 255)
-	    green = randint(0, 255)
-	    blue  = randint(0, 255)
-	    set_led_rgb(led, red, green, blue)
-	    sleep(0.3)
+		led = randint(1, 6)
+		red   = randint(0, 255)
+		green = randint(0, 255)
+		blue  = randint(0, 255)
+		set_led_rgb(led, red, green, blue)
+		sleep(0.3)
 	all_leds_off()
+
