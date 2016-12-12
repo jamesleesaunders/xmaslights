@@ -55,7 +55,7 @@ def all_leds_on():
  
 # Set a specified LED a colour (by by RGB)
 def set_led_rgb(led, red, green, blue):
-	colour = (green & 255)<<16 | (red & 255) << 8 | (blue & 255) # Note: GRB not RGB
+	colour = (green & 255)<<16 | (red & 255)<<8 | (blue & 255) # Note: GRB not RGB
 	tree.setPixelColor(led, colour)
 	tree.show()
 	return
