@@ -29,9 +29,11 @@ LED_FREQ_HZ    = 800000  # LED signal frequency in hertz (usually 800khz)
 LED_DMA        = 5       # DMA channel to use for generating signal (try 5)
 LED_INVERT     = False   # True to invert the signal
 LED_BRIGHTNESS = 50      # Set to 0 for darkest and 255 for brightest
-colours        = ['red', 'blue', 'magenta', 'cyan', 'yellow', 'green']
+
 tree = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
 tree.begin()
+
+colours = ['red', 'blue', 'magenta', 'cyan', 'yellow', 'green']
 
 ####################
 # Useful Functions
@@ -160,7 +162,7 @@ while True:
 		set_led_rgb(led, red, green, blue)
 	# Now randomly choose an LED and set it to a random colour
 	for i in range(50):
-		led = randint(1, 6)
+		led   = randint(1, 6)
 		red   = randint(0, 255)
 		green = randint(0, 255)
 		blue  = randint(0, 255)
