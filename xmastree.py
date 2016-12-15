@@ -33,8 +33,6 @@ LED_BRIGHTNESS = 50      # Set to 0 for darkest and 255 for brightest
 tree = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS)
 tree.begin()
 
-colours = ['red', 'blue', 'magenta', 'cyan', 'yellow', 'green']
-
 ####################
 # Useful Functions
 ####################
@@ -91,6 +89,8 @@ def set_all_colour(colour):
 ####################
 # Main
 ####################
+colours = ['red', 'blue', 'magenta', 'cyan', 'yellow', 'green']
+
 while True:
 
 	## EXAMPLE 1: Flash some colours (all LEDs the same colour)
