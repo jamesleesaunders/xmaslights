@@ -125,7 +125,7 @@ while True:
 		sleep(0.4)
 		set_led_colour(2, "red")
 		sleep(0.4)
-		# sweep-up in YELLOW
+		# sweep-up in GREEN
 		set_led_colour(0, "green")
 		set_led_colour(5, "green")
 		set_led_colour(4, "green")
