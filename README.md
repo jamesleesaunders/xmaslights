@@ -50,4 +50,7 @@ https://www.modmypi.com/blog/ryanteck-tutorials/ryanteck-snowpi-tutorials
 
 ### ModMyPi Programmable Christmas Tree
 
+![alt text](https://github.com/jamesleesaunders/xmaslights/blob/master/modmypi_tree.jpg "Christmas Tree")
+
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/christmas-tree-programmable-kit
+https://github.com/modmypi/Programmable-Xmas-Tree/
