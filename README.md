@@ -24,3 +24,24 @@ ssh pi@raspberrypi.local
 ```
 
 [Tutorial](https://hackernoon.com/raspberry-pi-headless-install-462ccabd75d0)
+
+### Pocketmonytronics RGB Tree
+
+http://www.pocketmoneytronics.co.uk/?page_id=423
+
+Using the Raspberry Pi version.
+I have put together a simple bit of example Python code with you can download from http://www.pocketmoneytronics.co.uk/downloads/rgb_tree_example.py
+
+This code works but is quite rough: any seasoned Python programmers out there will probably cry into their keyboards – sorry! If you have ideas on how to improve it, please get in touch.
+
+To use the example code, you need the rpi_ws281x library by Jeremy Garff and Richard Hirst. If you’ve ever used the excellent Pimoroni Unicorn HAT or 4tronix’s McRoboFace (and if not, why not?!) or any other Neopixel-style products then you’ve probably got this installed. I hope to provide more instructions soon (again: can you help with this? Please get in touch!) but, for now, the easiest way is probably to use Pimoroni’s excellent installer.
+
+With the power switched off, connect the tree on pins 1 to 16, facing outwards.
+
+
+### Ryanteck SnowPi
+
+https://ryanteck.uk/
+https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/ryanteck-snowpi-the-gpio-snowman-for-raspberry-pi
+https://www.modmypi.com/blog/ryanteck-tutorials/ryanteck-snowpi-tutorials
+
