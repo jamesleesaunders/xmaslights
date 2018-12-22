@@ -1,6 +1,7 @@
 ## Raspberry Pi Christmas Lights
 
 ### Initial Setup
+
 1. Download Raspbian Image
 Head on over [here](https://www.raspberrypi.org/downloads/raspbian/) to grab a copy of the Raspbian image. The 'Lite' version will do.
 
@@ -19,6 +20,7 @@ Pop your prepared SD card, power and a network cable into the Pi.
 
 5. Connect to Pi.
 SSH to Pi over wireless:
+
 ```
 ssh pi@raspberrypi.local
 ```
@@ -46,3 +48,6 @@ https://ryanteck.uk/
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/ryanteck-snowpi-the-gpio-snowman-for-raspberry-pi
 https://www.modmypi.com/blog/ryanteck-tutorials/ryanteck-snowpi-tutorials
 
+### ModMiPy Programmable Christmas Tree
+
+https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/christmas-tree-programmable-kit
