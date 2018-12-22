@@ -29,6 +29,8 @@ ssh pi@raspberrypi.local
 
 ### Pocketmonytronics RGB Tree
 
+![RBG Tree](https://github.com/jamesleesaunders/xmaslights/blob/master/pockeymoney_rgb_tree.jpg "RGB Tree")
+
 http://www.pocketmoneytronics.co.uk/?page_id=423
 
 Using the Raspberry Pi version.
@@ -44,13 +46,15 @@ With the power switched off, connect the tree on pins 1 to 16, facing outwards.
 
 ### Ryanteck SnowPi
 
+![SnowPi](https://github.com/jamesleesaunders/xmaslights/blob/master/ryanteck_snowpi.jpg "SnowPi")
+
 https://ryanteck.uk/
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/ryanteck-snowpi-the-gpio-snowman-for-raspberry-pi
 https://www.modmypi.com/blog/ryanteck-tutorials/ryanteck-snowpi-tutorials
 
 ### ModMyPi Programmable Christmas Tree
 
-![alt text](https://github.com/jamesleesaunders/xmaslights/blob/master/modmypi_tree.jpg "Christmas Tree")
+![Christmas Tree](https://github.com/jamesleesaunders/xmaslights/blob/master/modmypi_tree.jpg "Christmas Tree")
 
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/christmas-tree-programmable-kit
 https://github.com/modmypi/Programmable-Xmas-Tree/
