@@ -48,6 +48,6 @@ https://ryanteck.uk/
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/ryanteck-snowpi-the-gpio-snowman-for-raspberry-pi
 https://www.modmypi.com/blog/ryanteck-tutorials/ryanteck-snowpi-tutorials
 
-### ModMiPy Programmable Christmas Tree
+### ModMyPi Programmable Christmas Tree
 
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/christmas-tree-programmable-kit
