@@ -31,6 +31,7 @@ http://www.pocketmoneytronics.co.uk/?page_id=423
 
 Using the Raspberry Pi version.
 I have put together a simple bit of example Python code with you can download from http://www.pocketmoneytronics.co.uk/downloads/rgb_tree_example.py
+https://www.raspberrypi-spy.co.uk/2016/12/rgb-led-christmas-tree-by-pocketmoneytronics/
 
 This code works but is quite rough: any seasoned Python programmers out there will probably cry into their keyboards – sorry! If you have ideas on how to improve it, please get in touch.
 
