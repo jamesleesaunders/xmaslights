@@ -58,3 +58,24 @@ https://www.modmypi.com/blog/ryanteck-tutorials/ryanteck-snowpi-tutorials
 
 https://www.modmypi.com/raspberry-pi/led-displays-and-drivers-1034/led-boards-1040/christmas-tree-programmable-kit
 https://github.com/modmypi/Programmable-Xmas-Tree/
+
+
+Install gpiozero... https://gpiozero.readthedocs.io/en/stable/installing.html
+
+First, update your repositories list:
+
+```
+pi@raspberrypi:~$ sudo apt update
+```
+
+Then install the package for Python 3:
+
+```
+pi@raspberrypi:~$ sudo apt install python3-gpiozero
+```
+
+or Python 2:
+
+```
+pi@raspberrypi:~$ sudo apt install python-gpiozero
+```
